@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 
-function AllBeers() {
+function RandomBeer() {
   return (
     <div>
       <Header />
 
-      <h1>All Beers</h1>
+      <h1>Random Beer</h1>
 
       <Link to={"/"}>Home</Link>
     </div>
   );
 }
 
-export default AllBeers;
+export default RandomBeer;

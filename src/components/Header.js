@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 function Header() {
   return (
     <div>
-      <p>OPa!</p>
+      <Link to={"/"}>Header</Link>
     </div>
   );
 }

@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 
-function AllBeers() {
+function NewBeer() {
   return (
     <div>
       <Header />
 
-      <h1>All Beers</h1>
+      <h1>New Beer</h1>
 
       <Link to={"/"}>Home</Link>
     </div>
   );
 }
 
-export default AllBeers;
+export default NewBeer;
