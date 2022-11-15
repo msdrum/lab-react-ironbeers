@@ -46,3 +46,10 @@
   border: 1px solid;
   padding: 2%;
 }
+.beer-detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  border: 1px solid;
+  padding: 2%;
+}
