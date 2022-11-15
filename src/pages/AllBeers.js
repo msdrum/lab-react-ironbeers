@@ -31,13 +31,13 @@ function AllBeers() {
       {allBeers.map((beer) => {
         return (
           <div key={beer._id} className="beer-box">
-            <div className="img-box">
+            <Link to={beer._id} className="img-box">
               <img
                 src={beer.image_url}
                 alt={`${beer.name}`}
                 style={{ width: 50 }}
               />
-            </div>
+            </Link>
             <h3>{beer.name}</h3>
             <h4>{beer.tagline}</h4>
             <p>{beer.contributed_by}</p>
